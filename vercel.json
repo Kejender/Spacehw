@@ -7,6 +7,10 @@
       }
     ],
     "routes": [
+        {
+            "src": "/api/hwinfo(.*)",
+            "dest": "index.js"
+        },
       {
         "src": "/",
         "dest": "dist/index.html"
