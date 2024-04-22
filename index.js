@@ -63,7 +63,7 @@ app.get('/', (request, response) => {
 })
 
 app.get('/api/hw', (request, response) => {
-    response.send('<h1>Hardware</h1>')
+    response.send('<h1>Hardware '+hwlist.length+'</h1>')
 })
 
 app.get('/api/hwinfo', (request, response) => {
