@@ -14,10 +14,6 @@
         {
             "src": "/api/hwinfo",
             "dest": "index.js"
-        },
-        {
-            "src": "/api/hw",
-            "dest": "index.js"
         }
     ]
   }
